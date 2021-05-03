@@ -1,0 +1,23 @@
+{
+    "name": "dotfiles.kalkayan.io",
+    "version": "1.0.0",
+    "description": "Website for kalkayan's dotfiles",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server",
+        "watch": "sass --watch assets/main.scss dist/main.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kalkayan/dotfiles.kalkayan.io.git"
+    },
+    "author": "Manish Sahani",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kalkayan/dotfiles.kalkayan.io/issues"
+    },
+    "homepage": "https://github.com/kalkayan/dotfiles.kalkayan.io#readme",
+    "dependencies": {
+        "bootstrap": "^4.6.0"
+    }
+}
